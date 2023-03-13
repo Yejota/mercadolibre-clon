@@ -1,3 +1,13 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug{
+    border: red;  
+}
 .fondoLego{
     background-image: url(/media/fondos/lego.svg);
 }
@@ -10,3 +20,28 @@
 .fondoNikon{
     background-image: url(/media/fondos/fondoNikon.svg);
 }
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #EBEBEB;
+    ;
+}
+header{
+    background:#FFF159;
+}
+.fondo-blanco{
+    background: #ffffff;
+}
+.imagenprincipal{
+    width: 100vw;
+    height: 340px;
+}
+.div-flex{
+    display: flex;
+    justify-content: center;   
+}
+
+.div-flexcolumn{
+    flex-direction: column;
+}
+
