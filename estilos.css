@@ -35,8 +35,8 @@ body{
 }
 
 header{    
-    height: 100px;
-    width: 1512px;   
+    height: 100%;
+    width: 100%;   
     background:#FFF159;
 }
 
@@ -47,10 +47,7 @@ header{
 .fondo-background{
     background: #EBEBEB;
 }
-.imagenprincipal{    
-    width: 1512px;
-    height: 340px;  
-}
+
 .div-flex{
     display: flex;
     justify-content: center;   
@@ -59,9 +56,6 @@ header{
     justify-content: center;
 }
 
-.div-flexcolumna{
-    flex-direction: column;
-}
 .div-morado{
     background:#A90F90;
     
@@ -79,11 +73,4 @@ header{
     border: none;
 }
 
-.elemento-derecha{
-    justify-content: end;
-}
-
-.centrar-vertical{
-    align-items: center;
-}
 
