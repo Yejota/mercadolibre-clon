@@ -8,40 +8,82 @@
 .debug{
     border: red;  
 }
-.fondoLego{
-    background-image: url(/media/fondos/lego.svg);
-}
-.fondoXiaomi{
-    background-image: url(/media/fondos/xiomi.svg);
-}
-.fondoOster{
-    background-image: url(/media/fondos/oster.svg);
-}
-.fondoNikon{
-    background-image: url(/media/fondos/fondoNikon.svg);
-}
+
 body{
     width: 100vw;
     height: 100vh;
     background: #EBEBEB;
     ;
 }
-header{
-    background:#FFF159;
-}
+
 .fondo-blanco{
     background: #ffffff;
 }
-.imagenprincipal{
-    width: 100vw;
-    height: 340px;
+
+.fondoLego{
+    background-image: url('media/fondos/fondoLego.png'); width: 218px; height: 95px;
+}
+.fondoXiaomi{
+    background-image: url('media/fondos/fondoXiaomi.png'); width: 218px; height: 95px;
+}
+.fondoOster{
+    background-image: url('media/fondos/fondoOster.png'); width: 218px; height: 95px;
+}
+
+.fondoNikon{
+    background-image: url('media/fondos/fondoNikon.png'); width: 218px; height: 95px;
+}
+
+header{    
+    height: 100px;
+    width: 1512px;   
+    background:#FFF159;
+}
+
+.fondo-blancoCentrarVertical{
+    background: #ffffff;
+    align-items: center;
+}
+.fondo-background{
+    background: #EBEBEB;
+}
+.imagenprincipal{    
+    width: 1512px;
+    height: 340px;  
 }
 .div-flex{
     display: flex;
     justify-content: center;   
 }
+.div-justify{
+    justify-content: center;
+}
 
-.div-flexcolumn{
+.div-flexcolumna{
     flex-direction: column;
+}
+.div-morado{
+    background:#A90F90;
+    
+}
+.input-text{    
+    height: 39px;
+    width: 598px;   
+}
+.div-standarmedida{    
+    width: 1184px ;
+}
+
+.color-boton{    
+    background-color: #3483FA;
+    border: none;
+}
+
+.elemento-derecha{
+    justify-content: end;
+}
+
+.centrar-vertical{
+    align-items: center;
 }
 
