@@ -47,28 +47,46 @@ header{
 .fondo-background{
     background: #EBEBEB;
 }
-.imagenprincipal{    
-    width: 1512px;
-    height: 340px;  
-}
+
 .div-flex{
     display: flex;
-    justify-content: center;   
-}
-.div-justify{
-    justify-content: center;
+    justify-content: center; 
+    width: 1512px;      
 }
 
-.div-flexcolumna{
-    flex-direction: column;
+.div-flexHeader{
+    display: flex;
+    justify-content:space-evenly; 
+    width: 1512px; 
+    height: 100px; 
 }
+.div-justifycolumn{
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-around;
+}
+.div-justifyrow{
+    display: flex;   
+    flex-direction: row;     
+    gap: 17.8px;  
+}
+.div-elementoabajo{  
+    display: flex; 
+    flex-direction: column;         
+    justify-content: space-between; 
+    padding: 10px;
+}
+
 .div-morado{
     background:#A90F90;
     
 }
-.input-text{    
+.input-text{     
     height: 39px;
-    width: 598px;   
+    width: 598px;
+    left: 1px;
+    top: 8px;
+    border-radius: 2px;   
 }
 .div-standarmedida{    
     width: 1184px ;
@@ -79,12 +97,14 @@ header{
     border: none;
 }
 
-.elemento-derecha{
-    justify-content: end;
+.fuenteheader{
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
 }
 
-.centrar-vertical{
-    display: flex;
-    align-items: center;
-}
+
 
