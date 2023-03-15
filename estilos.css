@@ -15,6 +15,16 @@ body{
     background: #EBEBEB;
     ;
 }
+header{    
+    height: 100px;
+    width: 1512px;        
+    background:#FFF159;
+}
+
+main{
+    width: 1512;
+    height: 3586;
+}
 
 .fondo-blanco{
     background: #ffffff;
@@ -34,11 +44,7 @@ body{
     background-image: url('media/fondos/fondoNikon.png'); width: 218px; height: 95px;
 }
 
-header{    
-    height: 100%;
-    width: 100%;   
-    background:#FFF159;
-}
+
 
 .fondo-blancoCentrarVertical{
     background: #ffffff;
@@ -54,10 +60,39 @@ header{
     width: 1512px;      
 }
 
-<<<<<<< HEAD
+.div-fleximagen{
+    display: flex;
+    justify-content: center; 
+    width: 1512px;
+    height: 340px;
+}
+
+.div-flexseccionuno{ 
+    display: flex;    
+    justify-content: center; 
+    background: #ffffff;
+    padding: 10px;
+        
+}
+
+.div-seccionuno{    
+    display: flex;
+    justify-content:center; 
+    width: 1512px;
+    height: 90px;
+    margin-top: 20px;    
+}
+
+.div-verticalseccionuno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
 .div-flexHeader{
     display: flex;
-    justify-content:space-evenly; 
+    justify-content: space-evenly; 
     width: 1512px; 
     height: 100px; 
 }
@@ -74,12 +109,11 @@ header{
 .div-elementoabajo{  
     display: flex; 
     flex-direction: column;         
-    justify-content: space-between; 
+    justify-content: space-between;
+    align-items: start; 
     padding: 10px;
 }
 
-=======
->>>>>>> 7b8a21e27f49a98650b70e64f894a19581547463
 .div-morado{
     background:#A90F90;
     
@@ -100,7 +134,6 @@ header{
     border: none;
 }
 
-<<<<<<< HEAD
 .fuenteheader{
     font-family: Roboto;
     font-size: 13px;
@@ -111,6 +144,4 @@ header{
 }
 
 
-=======
->>>>>>> 7b8a21e27f49a98650b70e64f894a19581547463
 
