@@ -99,7 +99,20 @@ main{
     text-align: left;
     font-weight: bold;
     color: #000000;
+}
 
+.span-secundarioseccionuno{
+    height: 15px;
+    width: 48px;
+    left: 84px;
+    top: 47px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;    
+    text-align: left;
+    color: #3483FA
 }
 
 .div-flexHeader{
