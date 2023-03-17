@@ -82,6 +82,8 @@ main{
     height: 340px;
 }
 
+/*sección 01*/
+
 .div-seccionuno{    
     display: flex;
     justify-content:center; 
@@ -129,6 +131,8 @@ main{
     text-align: left;
     color: #3483FA
 }
+
+/*sección 02*/
 
 .div-secciondos{    
     display: flex;
@@ -249,27 +253,149 @@ main{
 .div-flexrow{
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content:start;
+    
 }
+
+/*sección tres*/
 
 .div-secciontres{    
-    display: flex;
-    flex-direction: column;    
-    align-items: start;
-    width: 1180px;
+    display: flex;       
+    justify-content: center;
+    width: 1512px;
     height: 340px;
-    margin-top: 30px;    
+    margin-top: 30px; 
+    background: #EBEBEB;
 }
 
-.div-flexsecciontres{
+.div-secciontressuperior{
     display: flex;
-    justify-content: center;    
+    justify-content: space-between; 
+    padding-top: 15px;   
     width: 1180px; 
     height: 87px;
     background: #A90F90;
          
+}.text-suscribirsenivel6{
+    height: 38px;
+    width: 233.9499969482422px;
+    left: 24px;
+    top: 24.5px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 600;    
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#FFFFFF;
 }
 
+.text-valorsuscripcion{
+    height: 24px;
+    width: 88px;
+    left: 1px;
+    top: 6px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: right;
+    color:#FFFFFF;
+}
+
+.div-flexpseudo{
+    display: flex;
+    justify-content: center;
+}
+
+.div-alignpseudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.div-secciontrescentral{
+    display: flex;  
+    flex-direction: column;   
+    width: 1180px;
+    height: 172px;
+    background: #ffffff;    
+}
+
+.div-seccioncentralsuperior{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-top: 20px; 
+    padding-left: 20px;  
+   
+}
+
+.div-seccioncentralinferior{
+    display: flex;
+    justify-content: space-around;
+    width: 1132px;
+    height: 74px;
+                 
+}
+
+.div-seccionplataforma{
+    width: 300px;
+    height: 70px; 
+    margin-top: 15px;
+
+}
+
+.text-centralsuperior{
+    height: 25px;
+    width: 400.15313720703125px;
+    left: 24px;
+    top: 20px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 18px;    
+    text-align: left;
+    color: #000000;
+;
+
+}
+
+.div-secciontresinferior{
+    padding: 20px;
+    width: 1180px;
+    height: 81px;
+    background: #ffffff;
+    display: flex;
+    justify-content: end;
+}
+
+.input-button{
+    height: 48px;
+    width: 123.71875px;
+    left: 1026.28125px;
+    top: 17px;
+    border-radius: 6px;
+    background: #3483FA;
+}
+
+.text-sucribirse{
+    height: 23px;
+    width: 75.91874694824219px;
+    left: 24px;
+    top: 12px;    
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
 
 .div-elementoabajo{  
     display: flex; 
