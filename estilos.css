@@ -260,11 +260,12 @@ main{
 /*sección tres*/
 
 .div-secciontres{    
-    display: flex;       
-    justify-content: center;
+    display: flex; 
+    flex-direction: column;      
+    justify-content: space-around;
     width: 1512px;
-    height: 340px;
-    margin-top: 30px; 
+    height: 350px;
+    margin-top: 30px;     
     background: #EBEBEB;
 }
 
@@ -274,6 +275,7 @@ main{
     padding-top: 15px;   
     width: 1180px; 
     height: 87px;
+    padding: 15px;
     background: #A90F90;
          
 }.text-suscribirsenivel6{
@@ -328,8 +330,7 @@ main{
 .div-seccioncentralsuperior{
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    padding-top: 20px; 
+    justify-content: start;    
     padding-left: 20px;  
    
 }
@@ -339,6 +340,7 @@ main{
     justify-content: space-around;
     width: 1132px;
     height: 74px;
+    margin-top: 5px;
                  
 }
 
@@ -396,6 +398,29 @@ main{
     color: #FFFFFF;
 
 }
+
+/* Sección 04*/
+
+.div-seccioncuatro{ 
+    margin-top: 30px;   
+    display: flex;  
+    flex-direction: column;        
+    justify-content:space-around;
+    width: 1512px;
+    height: 350px;     
+    background: #EBEBEB;
+    
+}
+
+.div-justifybeneficios{
+    display: flex;   
+    flex-direction: row;
+    justify-content: start;
+    gap: 20px;
+    margin-left: 10px;    
+    
+}
+
 
 .div-elementoabajo{  
     display: flex; 
