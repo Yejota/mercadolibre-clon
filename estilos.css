@@ -421,6 +421,64 @@ main{
     
 }
 
+/* Sección 05*/
+
+.div-seccioncinco{ 
+    margin-top: 25px;   
+    display: flex;  
+    flex-direction: column;        
+    justify-content:space-around;
+    width: 1512px;
+    height: 350px;    
+}
+
+/*sección 06*/
+
+.div-seccionseis{    
+        display: flex;
+        justify-content: center; 
+        width: 1512px;
+        margin-top: 30px;  
+} 
+
+.div-margenseccionseis{
+    display: flex;
+    justify-content: start;
+}
+
+/*sección siete*/
+
+.div-seccionsiete{     
+    width: 1512px;
+    margin-top: 50px;  
+} 
+
+/*sección ocho*/
+
+
+
+/*seccion nueve*/
+
+
+
+/*seccion diez*/
+
+div-secciondiez{
+    background:#ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+    
+
 
 .div-elementoabajo{  
     display: flex; 
